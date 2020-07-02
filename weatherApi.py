@@ -7,7 +7,7 @@ api_key = '371d82fc6de5c042c8dc8103b0b68caf'
 # ex_api_q = 'api.openweathermap.org/data/2.5/weather?q={city name}&appid={your api key}'
 
 api_base_url = 'http://api.openweathermap.org/data/2.5/weather'
-city_name = input('give a name of the city you want to fee weather for: ')
+city_name = input('give a name of the city you want to see weather for: ')
 # city_name = 'Warsaw'
 city = f"?q={city_name}"
 end_url = f"{api_base_url}{city}&appid={api_key}"
